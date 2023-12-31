@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: #11D300 ;
+  --background-start-rgb: #0B3101;
+  --background-end-rgb: #092207;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: #11D300;
+    --background-start-rgb: #0B3101;
+    --background-end-rgb: #092207;
+  }
+}
+
+body {
+  background: rgb(17,211,0);
+  background: linear-gradient(22deg, rgba(17,211,0,1) 0%, rgba(11,49,1,1) 80%, rgba(9,34,7,1) 100%);
+}
+body header div .absolute {
+  background: rgb(17,211,0);
+  background: linear-gradient(200deg, rgba(17,211,0,1) 0%, rgba(11,49,1,1) 97%, rgba(9,34,7,1) 100%);
+}
+body section {
+  background: rgb(17,211,0);
+  background: linear-gradient(22deg, rgba(17,211,0,1) 0%, rgba(11,49,1,1) 80%, rgba(9,34,7,1) 100%);
+}
+body section div .absolute {
+  background: rgb(17,211,0);
+  background: linear-gradient(200deg, rgba(17,211,0,1) 0%, rgba(11,49,1,1) 97%, rgba(9,34,7,1) 100%);
+}
+body .btn-green {
+  background-color: #489c1a;
+}
+body .bg-green {
+  background: rgb(74,148,33);
+  background: linear-gradient(129deg, rgba(74,148,33,1) 0%, rgba(48,126,28,1) 79%, rgba(21,61,17,1) 100%);
+}
+body .btn-green-flex {
+  background: rgb(74,148,33);
+  background: linear-gradient(66deg, rgba(74,148,33,1) 0%, rgba(48,126,28,1) 70%, rgba(21,61,17,1) 100%);
+}
